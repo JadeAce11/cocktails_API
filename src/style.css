@@ -1,0 +1,72 @@
+body {
+  background-image: url('https://github.com/JadeAce11/images-links/blob/main/bar.image.jpg?raw=true');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  padding: 20px;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: -1;
+}
+
+
+input, button {
+  padding: 10px;
+  margin: 10px 5px 20px 0;
+}
+
+img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  margin-top: 15px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+}
+
+.drink-card {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: makes it easier to read over bg */
+  border-radius: 10px;
+}
